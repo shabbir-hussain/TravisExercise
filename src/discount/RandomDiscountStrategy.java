@@ -1,3 +1,4 @@
+package discount;
 import java.util.Random;
 
 public class RandomDiscountStrategy

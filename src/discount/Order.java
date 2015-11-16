@@ -1,3 +1,4 @@
+package discount;
 public class Order {
   private String name;
   private float price;

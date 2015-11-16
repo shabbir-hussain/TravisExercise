@@ -1,3 +1,4 @@
+package discount;
 public class PercentDiscountStrategy
   implements DiscountStrategy {
 

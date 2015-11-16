@@ -1,0 +1,348 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: test.OrderTest</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['test.OrderTest'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/ant/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/shabbir/workspace/TravisExercise/build.xml';
+    
+        cur['ant.file.DiscountStrategy'] = '/home/shabbir/workspace/TravisExercise/build.xml';
+    
+        cur['ant.file.type'] = 'file';
+    
+        cur['ant.file.type.DiscountStrategy'] = 'file';
+    
+        cur['ant.home'] = '/usr/share/ant';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = '/usr/share/ant/lib';
+    
+        cur['ant.project.default-target'] = 'compile';
+    
+        cur['ant.project.invoked-targets'] = 'test';
+    
+        cur['ant.project.name'] = 'DiscountStrategy';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/shabbir/workspace/TravisExercise';
+    
+        cur['blddir'] = '/home/shabbir/workspace/TravisExercise/build';
+    
+        cur['classdir'] = '/home/shabbir/workspace/TravisExercise/build/classes';
+    
+        cur['env._'] = '/usr/bin/ant';
+    
+        cur['env.ALTERAOCLSDKROOT'] = '/home/shabbir/altera/15.0/hld';
+    
+        cur['env.CLUTTER_IM_MODULE'] = 'xim';
+    
+        cur['env.COLORTERM'] = 'gnome-terminal';
+    
+        cur['env.COMPIZ_BIN_PATH'] = '/usr/bin/';
+    
+        cur['env.COMPIZ_CONFIG_PROFILE'] = 'ubuntu';
+    
+        cur['env.DBUS_SESSION_BUS_ADDRESS'] = 'unix:abstract=/tmp/dbus-343BI7Wskq';
+    
+        cur['env.DEFAULTS_PATH'] = '/usr/share/gconf/ubuntu.default.path';
+    
+        cur['env.DESKTOP_SESSION'] = 'ubuntu';
+    
+        cur['env.DISPLAY'] = ':0';
+    
+        cur['env.GDM_LANG'] = 'en_US';
+    
+        cur['env.GDMSESSION'] = 'ubuntu';
+    
+        cur['env.GNOME_DESKTOP_SESSION_ID'] = 'this-is-deprecated';
+    
+        cur['env.GNOME_KEYRING_CONTROL'] = '/run/user/1000/keyring-H6Bpzw';
+    
+        cur['env.GNOME_KEYRING_PID'] = '';
+    
+        cur['env.GPG_AGENT_INFO'] = '/run/user/1000/keyring-H6Bpzw/gpg:0:1';
+    
+        cur['env.GTK_IM_MODULE'] = 'ibus';
+    
+        cur['env.GTK_MODULES'] = 'overlay-scrollbar:unity-gtk-module';
+    
+        cur['env.HOME'] = '/home/shabbir';
+    
+        cur['env.IM_CONFIG_PHASE'] = '1';
+    
+        cur['env.INSTANCE'] = '';
+    
+        cur['env.JOB'] = 'dbus';
+    
+        cur['env.LANG'] = 'en_US.UTF-8';
+    
+        cur['env.LANGUAGE'] = 'en_US';
+    
+        cur['env.LESSCLOSE'] = '/usr/bin/lesspipe %s %s';
+    
+        cur['env.LESSOPEN'] = '| /usr/bin/lesspipe %s';
+    
+        cur['env.LM_LICENSE_FILE'] = '2525@sparky.campus.mcgill.ca';
+    
+        cur['env.LOGNAME'] = 'shabbir';
+    
+        cur['env.LS_COLORS'] = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';
+    
+        cur['env.MANDATORY_PATH'] = '/usr/share/gconf/ubuntu.mandatory.path';
+    
+        cur['env.NLSPATH'] = '/usr/dt/lib/nls/msg/%L/%N.cat';
+    
+        cur['env.OLDPWD'] = '/home/shabbir/workspace/TravisExercise/junit';
+    
+        cur['env.PATH'] = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/shabbir/RTaW/RTaW-Sim-1.4.7-Starter/bin:/home/shabbir/RTaW/RTaW-Sim-1.4.7-Starter/bin';
+    
+        cur['env.PWD'] = '/home/shabbir/workspace/TravisExercise';
+    
+        cur['env.QSYS_ROOTDIR'] = '/home/shabbir/altera/15.0/quartus/sopc_builder/bin';
+    
+        cur['env.QT_IM_MODULE'] = 'ibus';
+    
+        cur['env.QT_QPA_PLATFORMTHEME'] = 'appmenu-qt5';
+    
+        cur['env.QT4_IM_MODULE'] = 'ibus';
+    
+        cur['env.SELINUX_INIT'] = 'YES';
+    
+        cur['env.SESSION'] = 'ubuntu';
+    
+        cur['env.SESSION_MANAGER'] = 'local/shabbir-Aspire-S3-391:@/tmp/.ICE-unix/1622,unix/shabbir-Aspire-S3-391:/tmp/.ICE-unix/1622';
+    
+        cur['env.SESSIONTYPE'] = 'gnome-session';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/run/user/1000/keyring-H6Bpzw/ssh';
+    
+        cur['env.TERM'] = 'xterm';
+    
+        cur['env.TEXTDOMAIN'] = 'im-config';
+    
+        cur['env.TEXTDOMAINDIR'] = '/usr/share/locale/';
+    
+        cur['env.UPSTART_SESSION'] = 'unix:abstract=/com/ubuntu/upstart-session/1000/1460';
+    
+        cur['env.USER'] = 'shabbir';
+    
+        cur['env.VTE_VERSION'] = '3409';
+    
+        cur['env.WINDOWID'] = '79691787';
+    
+        cur['env.XAUTHORITY'] = '/home/shabbir/.Xauthority';
+    
+        cur['env.XDG_CONFIG_DIRS'] = '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg';
+    
+        cur['env.XDG_CURRENT_DESKTOP'] = 'Unity';
+    
+        cur['env.XDG_DATA_DIRS'] = '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/';
+    
+        cur['env.XDG_GREETER_DATA_DIR'] = '/var/lib/lightdm-data/shabbir';
+    
+        cur['env.XDG_MENU_PREFIX'] = 'gnome-';
+    
+        cur['env.XDG_RUNTIME_DIR'] = '/run/user/1000';
+    
+        cur['env.XDG_SEAT'] = 'seat0';
+    
+        cur['env.XDG_SEAT_PATH'] = '/org/freedesktop/DisplayManager/Seat0';
+    
+        cur['env.XDG_SESSION_ID'] = 'c1';
+    
+        cur['env.XDG_SESSION_PATH'] = '/org/freedesktop/DisplayManager/Session0';
+    
+        cur['env.XDG_VTNR'] = '7';
+    
+        cur['env.XFILESEARCHPATH'] = '/usr/dt/app-defaults/%L/Dt';
+    
+        cur['env.XMODIFIERS'] = '@im=ibus';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/shabbir/workspace/TravisExercise/bin:/home/shabbir/workspace/TravisExercise/lib/org.junit_4.11.0.v201303080030/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-8-oracle/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-8-oracle/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_60-b27';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_60';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.60-b23';
+    
+        cur['junit.output.dir'] = 'junit';
+    
+        cur['libraries'] = 'lib';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.16.0-49-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['srcdir'] = '/home/shabbir/workspace/TravisExercise/src/discount';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-8-oracle/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/shabbir/workspace/TravisExercise/junit/TEST-test.OrderTest.xml crashfile=/home/shabbir/workspace/TravisExercise/junitvmwatcher5381230348979687568.properties propsfile=/home/shabbir/workspace/TravisExercise/junit5903135884823967155.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/shabbir/workspace/TravisExercise';
+    
+        cur['user.home'] = '/home/shabbir';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'shabbir';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class test.OrderTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a title="Display all tests" href="0_OrderTest.html">OrderTest</a></td><td><a title="Display all tests" href="0_OrderTest.html">1</a></td><td><a title="Display only errors" href="0_OrderTest-errors.html">1</a></td><td>0</td><td>0</td><td>0.097</td><td>2015-11-16T23:44:52</td><td>shabbir-Aspire-S3-391</td>
+</tr>
+</table>
+<h2>Errors</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Error">
+<td><a name="initializationError"></a>initializationError</td><td>Error</td><td>org/hamcrest/SelfDescribing<br>
+<br>
+<code>java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing<br>	at java.lang.ClassLoader.defineClass1(Native Method)<br>	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)<br>	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)<br>	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)<br>	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)<br>	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)<br>	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)<br>	at java.security.AccessController.doPrivileged(Native Method)<br>	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)<br>	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)<br>	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)<br>Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing<br>	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)<br>	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)<br>	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)<br>
+</code></td><td>0.009</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('test.OrderTest');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>

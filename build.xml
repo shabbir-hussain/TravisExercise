@@ -1,9 +1,23 @@
 <?xml version="1.0"?>
 
 <project name="DiscountStrategy" default="compile">
+
+  <property name="junit.output.dir" value="junit"/>
+  <property environment="env"/>
+  <property name="libraries" value="lib"/>
+
+  <property name="srcdir" location="src/discount"/>
   <property name="blddir" location="build" />
   <property name="classdir" location="${blddir}/classes" />
 
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${libraries}/org.junit_4.11.0.v201303080030/junit.jar"/>
+        <pathelement location="${libraries}/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="TravisExercise.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+    </path>
   <target name="init">
     <mkdir dir="${blddir}" />
     <mkdir dir="${classdir}" />
@@ -11,7 +25,36 @@
 
   <target name="compile" depends="init">
     <javac
-      srcdir="src"
+      srcdir="${srcdir}"
       destdir="${classdir}" />
   </target>
+
+  <target name="runpercentage" depends="compile">
+    <java classname="Demo" fork="true">
+        <classpath>
+            <path location="${classdir}" />
+        </classpath>
+        <arg value="1"/>
+        <arg value="100"/>
+    </java>
+  </target>
+
+    <target name="test">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.OrderTest" todir="${junit.output.dir}"/>
+            <classpath refid="TravisExercise.classpath"/>
+        </junit>
+        
+    </target>
+
+    <target name="testreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
 </project>
