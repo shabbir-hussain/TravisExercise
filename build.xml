@@ -47,9 +47,6 @@
             <classpath refid="TravisExercise.classpath"/>
         </junit>
         
-    </target>
-
-    <target name="testreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
                 <include name="TEST-*.xml"/>
@@ -57,4 +54,5 @@
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
     </target>
+
 </project>
