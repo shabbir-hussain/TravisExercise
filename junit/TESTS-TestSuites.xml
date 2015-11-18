@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="shabbir-Aspire-S3-391" id="0" name="OrderTest" package="test" skipped="0" tests="1" time="0.097" timestamp="2015-11-16T23:44:52">
+  <testsuite errors="0" failures="0" hostname="shabbir-Aspire-S3-391" id="0" name="OrderTest" package="test" skipped="0" tests="1" time="0.076" timestamp="2015-11-18T23:12:03">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
-          <property name="env.SESSION_MANAGER" value="local/shabbir-Aspire-S3-391:@/tmp/.ICE-unix/1622,unix/shabbir-Aspire-S3-391:/tmp/.ICE-unix/1622" />
+          <property name="env.SESSION_MANAGER" value="local/shabbir-Aspire-S3-391:@/tmp/.ICE-unix/1372,unix/shabbir-Aspire-S3-391:/tmp/.ICE-unix/1372" />
 
           <property name="env.IM_CONFIG_PHASE" value="1" />
 
@@ -18,7 +18,7 @@
 
           <property name="os.name" value="Linux" />
 
-          <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1460" />
+          <property name="env.UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1000/1234" />
 
           <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
 
@@ -86,7 +86,7 @@
 
           <property name="user.timezone" value="" />
 
-          <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-343BI7Wskq" />
+          <property name="env.DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-Ut3LeWGJ05" />
 
           <property name="sun.arch.data.model" value="64" />
 
@@ -116,7 +116,7 @@
 
           <property name="user.country" value="US" />
 
-          <property name="env.GNOME_KEYRING_PID" value="" />
+          <property name="env.GNOME_KEYRING_PID" value="1322" />
 
           <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
 
@@ -166,13 +166,13 @@
 
           <property name="env.QSYS_ROOTDIR" value="/home/shabbir/altera/15.0/quartus/sopc_builder/bin" />
 
-          <property name="env.OLDPWD" value="/home/shabbir/workspace/TravisExercise/junit" />
+          <property name="env.OLDPWD" value="/home/shabbir/workspace/TravisExercise/build" />
 
           <property name="java.specification.vendor" value="Oracle Corporation" />
 
-          <property name="classdir" value="/home/shabbir/workspace/TravisExercise/build/classes" />
+          <property name="classdir" value="/home/shabbir/workspace/TravisExercise/build" />
 
-          <property name="env.WINDOWID" value="79691787" />
+          <property name="env.WINDOWID" value="6291467" />
 
           <property name="env.VTE_VERSION" value="3409" />
 
@@ -186,9 +186,9 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="java.class.path" value="/home/shabbir/workspace/TravisExercise/bin:/home/shabbir/workspace/TravisExercise/lib/org.junit_4.11.0.v201303080030/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/home/shabbir/workspace/TravisExercise/build:/home/shabbir/workspace/TravisExercise/lib/org.junit_4.11.0.v201303080030/junit.jar:/home/shabbir/workspace/TravisExercise/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/shabbir/workspace/TravisExercise/junit/TEST-test.OrderTest.xml crashfile=/home/shabbir/workspace/TravisExercise/junitvmwatcher5381230348979687568.properties propsfile=/home/shabbir/workspace/TravisExercise/junit5903135884823967155.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.OrderTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/shabbir/workspace/TravisExercise/junit/TEST-test.OrderTest.xml crashfile=/home/shabbir/workspace/TravisExercise/junitvmwatcher4424240569247199059.properties propsfile=/home/shabbir/workspace/TravisExercise/junit4400983235424486312.properties" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on April 8 2014" />
 
@@ -218,7 +218,7 @@
 
           <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
 
-          <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-H6Bpzw/ssh" />
+          <property name="env.SSH_AUTH_SOCK" value="/run/user/1000/keyring-4Icfno/ssh" />
 
           <property name="ant.file.type.DiscountStrategy" value="file" />
 
@@ -262,11 +262,11 @@
 
           <property name="env.COMPIZ_BIN_PATH" value="/usr/bin/" />
 
-          <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-H6Bpzw/gpg:0:1" />
+          <property name="env.GPG_AGENT_INFO" value="/run/user/1000/keyring-4Icfno/gpg:0:1" />
 
           <property name="java.specification.version" value="1.8" />
 
-          <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-H6Bpzw" />
+          <property name="env.GNOME_KEYRING_CONTROL" value="/run/user/1000/keyring-4Icfno" />
 
           <property name="env.XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg" />
 
@@ -276,29 +276,7 @@
 
       </properties>
 
-      <testcase classname="test.OrderTest" name="initializationError" time="0.009">
-          <error message="org/hamcrest/SelfDescribing" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/hamcrest/SelfDescribing
-	at java.lang.ClassLoader.defineClass1(Native Method)
-	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
-	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
-	at java.net.URLClassLoader.defineClass(URLClassLoader.java:467)
-	at java.net.URLClassLoader.access$100(URLClassLoader.java:73)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:368)
-	at java.net.URLClassLoader$1.run(URLClassLoader.java:362)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:361)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-Caused by: java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-</error>
-
-      </testcase>
+      <testcase classname="test.OrderTest" name="percentageDiscountTest" time="0.002" />
 
       <system-out />
 

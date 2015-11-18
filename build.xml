@@ -8,14 +8,14 @@
 
   <property name="srcdir" location="src/discount"/>
   <property name="blddir" location="build" />
-  <property name="classdir" location="${blddir}/classes" />
+  <property name="classdir" location="${blddir}" />
 
     <path id="JUnit 4.libraryclasspath">
         <pathelement location="${libraries}/org.junit_4.11.0.v201303080030/junit.jar"/>
         <pathelement location="${libraries}/org.hamcrest.core_1.3.0.v201303031735.jar"/>
     </path>
     <path id="TravisExercise.classpath">
-        <pathelement location="bin"/>
+        <pathelement location="${blddir}"/>
         <path refid="JUnit 4.libraryclasspath"/>
     </path>
   <target name="init">
@@ -24,9 +24,10 @@
   </target>
 
   <target name="compile" depends="init">
-    <javac
-      srcdir="${srcdir}"
-      destdir="${classdir}" />
+      <javac destdir="${classdir}" >
+          <src path="src"/>
+          <classpath refid="TravisExercise.classpath"/>
+    </javac>
   </target>
 
   <target name="runpercentage" depends="compile">
